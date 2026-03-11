@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário</title>
+</head>
+    <body>
+        <h1>Formulário</h1>
+
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+            
+                <label for="iptNomeID" id="lblNome">Nome: </label>
+                <input type="text" style="width: 700px; padding: 4px;" id="iptNomeID" name="iptNomeName"><br>
+
+                <label for="iptNascimento" id="lblNascimento">Data de nascimento:</label>
+                <input type="date"  style="width: 300px;" id="iptNascimento" name="iptNascimentoDate">
+
+                &nbsp;&nbsp;&nbsp;
+
+                <label for="iptCorFav" id="lblCor">Cor Favorita:</label>
+                <input type="color" id="iptCorFav" name="iptCorFavName"><br><br>
+
+                <label for="iptEnderecoID" id="lblEndereco">Endereço: </label>
+                <input type="text" style="width: 600px; padding: 4px;" id="iptEnderecoID" name="iptEnderecoName"><br><br>
+
+
+                <label for="iptBairroID" id="lblBairro">Bairro: </label>
+                <input type="text" style="width: 300px; padding: 4px;" id="iptBairroID" name="iptBairroName">
+
+                &nbsp;
+
+                <label for="iptCidadeID" id="lblCidade">Cidade: </label>
+                <input type="text" style="width: 230px; padding: 4px;" id="iptCidadeID" name="iptCidadeName"><br><br>
+
+                &nbsp;
+
+                <label for="iptCepID" id="lblCep">CEP:</label>
+                <input type="text" style="width: 306px; padding: 4px;" id="iptCepID" name="iptCepName">
+
+                &nbsp;
+
+                <label for="Estados">Estado:</label>
+                    <select id="estados"Estados">
+                        <option value="CE">Ceará</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="BA">Bahia</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="DF">Distrito Federal</option>
+
+                    </select>
+            </fieldset>
+    <br>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                    <span>Natureza do Cargo</span><br>
+
+                        <input type="radio" id="iptCargo1" name="Cargo" value="1">
+                        <label for="iptCargo1">Gerência</label>
+                        <input type="radio" id="iptCargo2" name="Cargo" value="2">
+                        <label for="iptCargo2">Financeiro</label>
+                        <input type="radio" id="iptCargo3" name="Cargo" value="3">
+                        <label for="iptCargo3">Recepção</label>
+                        <input type="radio" id="iptCargo4" name="Cargo" value="4">
+                        <label for="iptCargo4">Administrativo</label>
+                        <input type="radio" id="iptCargo5" name="Cargo" value="5">
+                        <label for="iptCargo5">Jurídico</label>
+                
+    <br><br>
+
+                    <span>Área de interesse</span><br>
+                        <input type="checkbox" id="iptInteresse1" name="Interesse" value="1">
+                        <label for="iptInteresse1">Computação</label>
+                        <input type="checkbox" id="iptInteresse2" name="Interesse" value="2">
+                        <label for="iptInteresse2">Química</label>
+                        <input type="checkbox" id="iptInteresse3" name="Interesse" value="3">
+                        <label for="iptInteresse3">Meio Ambiente</label>
+                        <input type="checkbox" id="iptInteresse4" name="Interesse" value="4">
+                        <label for="iptInteresse4">Engenharia</label>
+                        <input type="checkbox" id="iptInteresse5" name="Interesse" value="5">
+                        <label for="iptInteresse5">Matemática</label>
+    <br><br><br>               
+
+                    <span></span>
+                    <label for="curriculo">Mini-currículo</label><br>
+                    <textarea id="curriculo"  name="curriculo" rows="10" cols="70"></textarea>
+            </fieldset>
+
+    <br>
+
+            <input type="button" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+
+    </body>
